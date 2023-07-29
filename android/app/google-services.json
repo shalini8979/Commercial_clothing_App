@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "504136879574",
+    "project_id": "commercialsiteui",
+    "storage_bucket": "commercialsiteui.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504136879574:android:3b9f846bd0c1861d1c2877",
+        "android_client_info": {
+          "package_name": "com.example.flutter_new_project_login"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr0poC2uWBK9Q9nPDkHk2EjWc5SVZmU80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
