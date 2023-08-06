@@ -8,7 +8,7 @@ import 'package:flutter_new_project_login/widgets/bottomnav_bar.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
-    options: const FirebaseOptions(apiKey: "AIzaSyBr0poC2uWBK9Q9nPDkHk2EjWc5SVZmU80 ", appId: "1:504136879574:android:3b9f846bd0c1861d1c2877", messagingSenderId: "504136879574 ", projectId: "commercialsiteui"),
+    options: const FirebaseOptions(apiKey: "AIzaSyBr0poC2uWBK9Q9nPDkHk2EjWc5SVZmU80", appId: "1:504136879574:android:3b9f846bd0c1861d1c2877", messagingSenderId: "504136879574 ", projectId: "commercialsiteui"),
   );
   runApp(const MyApp());
 }

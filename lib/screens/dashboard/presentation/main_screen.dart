@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_new_project_login/function/search.dart';
 import '../../../widgets/widget.dart';
 
 
@@ -39,7 +40,7 @@ class _MyHomePage3State extends State<MyHomePage3> {
           ),
           SizedBox(height: 30.0,),
 
-          Searchbar1("Search Product "),
+          InkWell(onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) =>  search_screen(),)),child: Searchbar1("Search Product ")),
           
           SizedBox(height: 30,),
           
